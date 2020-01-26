@@ -2,20 +2,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url('../img/bg-masthead.jpg') no-repeat;
-    background-size: cover;
-    background-position: center;
     width: 100%;
     height: auto;
 }
 
-/* .main-header {
+/* APRESENTATION AND NAV SECTION */
+
+.header-apresentation {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url('../img/bg-masthead.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
     width: 100%;
-    height: 900px;
-} */
+    height: 720px;
+}
 
 /* TOP BAR  */
 
@@ -44,8 +46,21 @@
 
 .header-title > h1 {
     letter-spacing: 0.2em;
-    font-size: 2.5em;
+    font-size: 4em;
 }
+
+.header-title > button {
+    background: #64a19d;
+    padding: 13px;
+    border: 0;
+    border-radius: 4px;
+    margin-top: 31px;
+    font-weight: bold;
+}
+
+
+/* DESC SECTION */
+
 
 
 
