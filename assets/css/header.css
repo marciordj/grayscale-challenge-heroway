@@ -1,19 +1,21 @@
 .header-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url('../img/bg-masthead.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
+    height: auto;
 }
 
-.main-header {
+/* .main-header {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     height: 900px;
-}
+} */
 
 /* TOP BAR  */
 
@@ -35,6 +37,14 @@
 
 .header-title {
     text-align: center;
+    padding-top: 196px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1rem;
+}
+
+.header-title > h1 {
+    letter-spacing: 0.2em;
+    font-size: 2.5em;
 }
 
 
