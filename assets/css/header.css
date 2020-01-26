@@ -47,6 +47,9 @@
 .header-title > h1 {
     letter-spacing: 0.2em;
     font-size: 4em;
+    background: linear-gradient(to bottom, #fff 0%, #333 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .header-title > button {

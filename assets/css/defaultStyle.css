@@ -1,0 +1,15 @@
+/* Fonts Css */
+@import url('https://fonts.googleapis.com/css?family=Nunito|Varela+Round&display=swap');
+
+
+/* Reset CSS */
+html {
+    font-size: 16px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #F8F8FF;
+}

@@ -1,21 +1,6 @@
+@import url('./defaultStyle.css');
 @import url('./header.css');
 @import url('./describe.css');
 
 
 
-/* FONTS */
-@import url('https://fonts.googleapis.com/css?family=Nunito|Varela+Round&display=swap');
-
-
-/* RESET */
-
-html {
-    font-size: 16px;
-}
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    color: #F8F8FF;
-}
