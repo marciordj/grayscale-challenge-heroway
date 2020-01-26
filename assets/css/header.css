@@ -6,7 +6,7 @@
     height: auto;
 }
 
-/* APRESENTATION AND NAV SECTION */
+/* TITLE AND NAV SECTION */
 
 .header-apresentation {
     display: flex;
@@ -59,7 +59,40 @@
 }
 
 
-/* DESC SECTION */
+/* HEADER CONTENT SECTION */
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(67,67,67,1) 39%, rgba(25,25,25,1) 100%, rgba(2,0,36,1) 100%);
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    padding: 180px 200px 0 200px;
+    width: 100%;
+    height: auto;
+
+}
+
+.header-content > h3 {
+    font-size: 1.4em;
+
+}
+
+.header-content > p {
+    color: #A9A9A9;
+    padding: 18px 200px;
+}
+
+.header-content > p > span {
+    color: #64a19d ;
+}
+
+.header-content > img {
+    width: 100%;
+    max-width: 700px;
+}
 
 
 
