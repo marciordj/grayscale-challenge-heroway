@@ -14,33 +14,26 @@
     margin-top: 100px;
 }
 
-.main-demo-img > img {
+.main-demo-img > figure {
+    display: flex;
+    align-items: center;
+}
+
+.main-demo-img > figure > img {
     width: 100%;
     max-width: 500px;
+    margin-right: 10px;
     height: 280px;
 }
 
-.text-img > h5 {
+.main-demo-img > figure > figcaption > h5 {
     color: #696969;
     font-size: 1.3em;
     font-weight: initial;
-    margin-top: 90px;
-    
+    border-left: 5px solid #64a19d;
 }
 
-.text-img > p { 
-    text-align: start;
+.main-demo-img > figure > figcaption > p {
     color: #A9A9A9;
-}
-
-.text-img > h5, .text-img > p {
-    border-left: 6px solid #64a19d;
-    padding-left: 26px;
-}
-
-.img-demo-box {
-    display: flex;
-    width: 100%;
-    max-width: 1000px;
-    border: 1px solid black;
+    border-left: 5px solid #64a19d;
 }
