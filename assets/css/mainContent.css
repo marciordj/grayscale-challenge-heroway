@@ -22,7 +22,6 @@
 .main-demo-img > figure > img {
     width: 100%;
     max-width: 500px;
-    margin-right: 10px;
     height: 280px;
 }
 
@@ -30,10 +29,13 @@
     color: #696969;
     font-size: 1.3em;
     font-weight: initial;
+    padding-left: 30px;
     border-left: 5px solid #64a19d;
+    
 }
 
 .main-demo-img > figure > figcaption > p {
     color: #A9A9A9;
+    padding-left: 30px;
     border-left: 5px solid #64a19d;
 }
