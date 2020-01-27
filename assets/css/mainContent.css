@@ -7,20 +7,20 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.top-demo-image {
+.main-demo-img {
     display: flex;
     width: 100%;
     max-width: 1000px;
     margin-top: 100px;
 }
 
-.top-demo-image > img {
+.main-demo-img > img {
     width: 100%;
     max-width: 500px;
     height: 280px;
 }
 
-.text-image > h5 {
+.text-img > h5 {
     color: #696969;
     font-size: 1.3em;
     font-weight: initial;
@@ -28,12 +28,19 @@
     
 }
 
-.text-image > p { 
+.text-img > p { 
     text-align: start;
     color: #A9A9A9;
 }
 
-.text-image > h5, .text-image > p {
+.text-img > h5, .text-img > p {
     border-left: 6px solid #64a19d;
     padding-left: 26px;
+}
+
+.img-demo-box {
+    display: flex;
+    width: 100%;
+    max-width: 1000px;
+    border: 1px solid black;
 }
