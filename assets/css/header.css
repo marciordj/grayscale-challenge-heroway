@@ -23,8 +23,8 @@
 
 .top-header {
     display: flex;
-    width: 50%;
-    justify-content: space-between;
+    width: 100%;
+    justify-content: space-around;
     margin-top: 25px;
     font-family: 'Nunito', sans-serif;
 }
@@ -64,11 +64,7 @@
 
 
 /* MEDIA QUERIES */
-@media (max-width: 599px) {
-    .top-header {
-        width: 100%;
-        padding: 0 10px;
-    }
+@media screen and (max-width: 599px) {
 
     .header-title {
         font-size: 0.79rem;
@@ -76,6 +72,21 @@
 
     .header-title > p {
         font-size: 1.3em;
+    }
+}
+
+@media screen and (max-width: 381px) {
+
+    .header-title {
+        font-size: 0.7rem;
+    }
+
+    .header-title > p {
+        font-size: 1.3em;
+    }
+
+    .nav-bar > a {
+        margin-left: 10px;
     }
 }
 
