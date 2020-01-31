@@ -7,7 +7,7 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.contact-box {
+.contact__box {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -17,7 +17,7 @@
     margin-top: 10px;
 }
 
-.contact-info {
+.contact__info {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,22 +28,22 @@
     background: #FFF;
 }
 
-.contact-info > i {
+.contact__info > i {
     color: #64a19d;
     margin-bottom: 6px;
     
 }
 
-.contact-info > h5 {
+.contact__info > h5 {
     color: #161616;
 }
 
-.contact-info > .bar {
+.contact__info > .bar {
     padding-right: 43px;
     height: 3px;
 }
 
-.contact-info > p {
+.contact__info > p {
     color: #a9a9a9;
     margin-top: 43px;
 }

@@ -8,14 +8,14 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.social-media {
+.footer__media {
     display: flex;
     justify-content: space-around;
     width: 100%;
     max-width: 225px;
 }
 
-.social-media > i {
+.footer__media > i {
     background: #2e2e2e;
     border-radius: 100%;
     padding: 10px;
