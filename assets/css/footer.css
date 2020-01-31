@@ -15,7 +15,7 @@
     max-width: 225px;
 }
 
-.footer__media > i {
+.footer__media > a > i {
     background: #2e2e2e;
     border-radius: 100%;
     padding: 10px;
