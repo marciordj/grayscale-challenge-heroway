@@ -115,6 +115,8 @@
 
     .main__img > figure {
         flex-direction: column;
+        margin-left: 50px;
+        padding-right: 0 ;
     }
 
     .main__img > figure > figcaption {
@@ -133,9 +135,7 @@
 }
 
 @media screen and (max-width: 935px) {
-    
-    
-    
+
     .main__top, .main__bottom {
         display: flex;
         flex-direction: column;
@@ -148,7 +148,7 @@
         text-align: center;
     }
 
-    .bar {
+    .main__top figcaption > .bar, .main__bottom figcaption > .bar {
         display: none;
     }
 }
